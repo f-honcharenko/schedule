@@ -1,5 +1,26 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/schedule/favicon.ico"><title>Rozklad</title><script async src="https://www.googletagmanager.com/gtag/js?id=G-D7JHGPWL3V"></script><script>window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Rozklad</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D7JHGPWL3V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-D7JHGPWL3V');</script><link href="/schedule/css/app.8de9c66b.css" rel="preload" as="style"><link href="/schedule/css/chunk-vendors.3b5a6dda.css" rel="preload" as="style"><link href="/schedule/js/app.93ab338e.js" rel="preload" as="script"><link href="/schedule/js/chunk-vendors.5d76433b.js" rel="preload" as="script"><link href="/schedule/css/chunk-vendors.3b5a6dda.css" rel="stylesheet"><link href="/schedule/css/app.8de9c66b.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but ap_rozklad doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="/schedule/js/chunk-vendors.5d76433b.js"></script><script src="/schedule/js/app.93ab338e.js"></script></body></html>
+      gtag('config', 'G-D7JHGPWL3V');
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
